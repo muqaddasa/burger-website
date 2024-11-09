@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; 
+    background-repeat: no-repeat;
+    color: #f2f2f2; 
+    }
+/* #gallery{
+    display: grid;
+} */
+
+header {
+    background-color: #333;
+    padding: 20px 0; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 2rem; 
+    color: #ffcc00; 
+}
+
+nav ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+}
+
+nav ul li {
+    margin: 0 20px; 
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: #f2f2f2; 
+    font-weight: bold; 
+    transition: color 0.3s; 
+}
+
+nav ul li a:hover {
+    color: #ffcc00; 
+}
+
+.cta {
+    margin-left: auto;
+}
+
+.cta-button {
+    text-decoration: none; 
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    font-weight: bold; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.cta-button:hover {
+    background-color: #e6b800; 
+}
+
+.hero{
+    background-image: url('images/bg\ img.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    height: 100vh; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative; 
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); 
+}
+
+.hero-content {
+    position: relative;
+    color: #ffcc00; 
+}
+
+.hero h1 {
+    font-size: 3rem; 
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5rem; 
+    margin: 10px 0 20px; 
+}
+
+.hero-cta {
+    text-decoration: none; 
+    background-color: #ffcc00; 
+    color: #333; 
+    padding: 15px 30px; 
+    border-radius: 5px; 
+    font-size: 1.2rem; 
+    font-weight: bold; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.hero-cta:hover {
+    background-color: #e6b800; 
+    color: #fff;
+}
+
+
+.menu {
+    padding: 50px 20px; 
+    text-align: center; 
+}
+
+.menu h2 {
+    font-size: 2.5rem; 
+    margin-bottom: 20px; 
+}
+
+.menu-item {
+    background-color: #444; 
+    padding: 20px; 
+    margin: 10px; 
+    border-radius: 5px; 
+    transition: transform 0.3s; 
+}
+
+.menu-item:hover {
+    transform: scale
+}
+a{
+    color: pink;
+}
+h2{
+    color: yellow;
+}
+.contactus{
+    background-color: yellow;
+}
+.gallery-item{
+        display: grid;
+    /* position: relative; */
+
+}
